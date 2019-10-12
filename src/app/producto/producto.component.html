@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="col-lg-6 imagen">
+        <div class="container">
+            <div class="altura"></div>
+            <img class="w-100" [src]="producto.variations[0].variationImage.url">
+        </div>                         
+    </div>
+    <div class="col-lg-6 descripcion">
+        <div class="container">
+            <div class="altura"></div>
+            <div>
+                    <h1 class="titulo">Nuestros Cuentos</h1>
+                    <h2 class="tituloCuento">{{producto.namePanel}}</h2>
+                <div class="row ml-2 mb-2">
+                    <span class="valores">Valores Principales:</span>
+                    <ul class="ul">
+                        <li *ngFor="let tag of tags" class="li mr-2">{{tag}}</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="row caracteristicas">
+                        <div>
+                            <ul class="rating row mt-3"> 
+                                <li *ngFor="let rat of rating"><i class="fas fa-star star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="vl"></div>
+                        <div>
+                            <ul class="people row mt-3"> 
+                                <li *ngFor="let peop of people"><i class="fas fa-baby baby"></i></li>
+                            </ul>
+                            <p>{{producto['variations'][0].people}} PERSONAJE</p>
+                        </div>
+                        <div class="vl"></div>
+                        <div class="precio">
+                            {{producto.price}}€
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="mt-4">
+                    <div class="p-3 sinopsis">Sinopsis</div>
+                    <div class="sinopsisCaja">
+                        <p>{{producto['variations'][0].synopsis}}</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>                         
+    </div>
+    <div class="container">
+        <div class="prodRelacionados">Productos relacionados</div>
+        <div class="row">
+                <app-relacionado *ngFor="let prod of prodRelacionados" [id]="prod" class="appRel"></app-relacionado>  
+        </div>
+    </div>
+
+</div>
+    
+

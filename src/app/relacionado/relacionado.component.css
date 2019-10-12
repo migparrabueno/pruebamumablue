@@ -1,0 +1,24 @@
+.cardRelacionado{
+margin-right: 15px;;
+}
+
+.cardRelacionado:hover{
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 lightskyblue;
+  }
+
+  .card{
+    background-color: #fcf7cd;
+
+  }
+
+  .titulo{
+    color: #636363;
+    font-size:20px;
+    font-weight: bolder;
+  }
+
+  .personajes{
+    color:#bb81d8;
+    font-size:18px;
+    font-weight: bolder;
+  }

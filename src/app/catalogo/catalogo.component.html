@@ -1,0 +1,54 @@
+  <!-- Page Content -->
+  <div class="container padding">
+  
+
+    <div class="row">
+      <!-- /.col-lg-12 -->
+
+      <div class="col-lg-12">
+
+          <div class="cabecera">
+              <h1 class="title">NUESTROS CUENTOS</h1>
+              <p>Descubre nuestras aventuras disponibles con uno o dos protagonistas. Nuestros cuentos personalizados están pensados para que los niños pequeños se reconozcan en la historia gracias a la personalización del personaje y se diviertan aprendiendo.</p>
+      </div>
+      
+      <div class="row">
+            <div class="col-lg-6 col-md-6 mb-4 card" *ngFor="let producto of productos" (click)="onClickProd(producto.id)">
+                <div class="card h-100">
+                  <img class="card-img-top" [src]="producto.variations[0].variationImage.url" alt="">
+                  <div class="card-body">
+
+                    <div class="row">
+
+                      <div>
+                        <h4 class="card-title titulo">
+                              {{producto.namePanel}}
+                        </h4>
+                        <h5 class="personajes">Cuento para {{producto.variations[0].people}} personajes</h5>
+                      </div>
+
+                      <div class="precio">
+                        <h5>{{producto.price}}€</h5>
+                      </div>
+
+                    </div>  
+                    <div class="variaciones">
+                      <p class="valores">Valores principales:</p>
+                      <p>{{producto.variations[0].tags}}</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+

@@ -1,0 +1,51 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css");
+.padding {
+    padding-top: 56px;
+  }
+
+  .title{
+    color: #8dc8e8;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .cabecera{
+    padding: 10%;
+    text-align: center;
+  }
+
+  .card{
+    background-color: #fcf7cd;
+  }
+
+  .card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 lightskyblue;
+  }
+
+  .titulo{
+    color: #636363;
+    font-size:20px;
+    font-weight: bolder;
+  }
+
+
+.personajes{
+  color:#bb81d8;
+  font-size:18px;
+  font-weight: bolder;
+}
+
+.precio{
+  margin-left: 190px;
+  color:#bb81d8;
+}
+
+.valores{
+  font-size:20px;
+    color: rgba(0,0,0,.5);
+}
+
+.variaciones{
+  margin-left:-15px
+}

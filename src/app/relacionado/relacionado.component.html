@@ -1,0 +1,13 @@
+<div class="card cardRelacionado">
+        <div class="card h-100">
+          <img class="card-img-top" [src]="producto.variations[0].variationImage.url" alt="">
+          <div class="card-body">
+              <h4 class="card-title titulo">
+                {{producto.namePanel}}
+              </h4>
+              <h5 class="personajes">Cuento para {{producto.variations[0].people}} personajes</h5>
+              <h5>{{producto.price}}€</h5>
+              <p>{{producto.variations[0].tags}}</p>
+          </div>
+        </div>
+    </div>

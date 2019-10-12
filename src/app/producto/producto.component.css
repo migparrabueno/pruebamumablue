@@ -1,0 +1,115 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css");
+.descripcion{
+    background-color: #fcf7cd;
+    height: 800px;
+
+}
+
+.imagen{
+    background-color: #dedbf0;
+    height: 800px;
+}
+
+.altura{
+    height:90px;
+}
+
+.titulo{
+    font-size: 40px;
+    color: rgba(0,0,0,.5);
+}
+
+.tituloCuento{
+    font-weight:700;
+    font-size: 60px;
+    color:#8dc8e8;
+}
+.valores{
+    font-size:20px;
+    color: rgba(0,0,0,.5);
+}
+
+.ul{
+    list-style:none;
+}
+
+.li{
+    float:left;
+    padding:5px 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.rating{
+    list-style:none;
+    margin-left: 20px;
+    padding:20px;
+}
+
+.star{
+    color:#ffd62f;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.caracteristicas{
+    background-color: #fff;
+    width: 600px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 0;
+}
+
+.people{
+    list-style:none;
+}
+
+.baby{
+    font-size:20px;
+    color:#bb81d8;
+}
+
+.precio{
+    color:#bb81d8;
+    font-size:30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.vl {
+    border-left: 6px solid #fcf7cd;
+    margin-top:10px;
+    margin-left:35px;
+    height: 80px;
+    padding:20px;
+  }
+
+  .sinopsis{
+    background:rgb(0,0,0,.05);
+    width:105px;
+    color:#bb81d8;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .sinopsisCaja{
+    background:rgb(0,0,0,.05);
+    padding:10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .prodRelacionados{
+    color:#8dc8e8;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    padding:10px;
+  }
+
+  .appRel{
+      width:30%;
+  }
